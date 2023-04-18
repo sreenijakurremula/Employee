@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "myuser": {
+    "url": "mongodb+srv://employee:test1234@nodetuts.27uofdz.mongodb.net/employee?retryWrites=true&w=majority",
+    "database": "employee",
+    "password": "test1234",
+    "name": "myuser",
+    "user": "employee",
+    "connector": "mongodb"
+  }
+}
