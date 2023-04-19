@@ -44,7 +44,7 @@ module.exports = function(Absence) {
       if (err) return next(err);
       else if (result != null) {
         result.status = 'accepted';
-
+        result.save();
         Absence.app.models.Myuser.findOne({where: {userID: result.userID}}, (err, data) =>{
           let sl;
           let vl;
